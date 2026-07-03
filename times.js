@@ -45,27 +45,3 @@ let escudos = [
     "real-matismo.jpg"
 ]
 
-
-
-function sortearJogo(){
-    let n 
-    n = Math.random()*times.length
-    n = Math.floor(n)
-    let time1 = times[n]
-    times.splice(n, 1)
-
-    console.log(time1);
-    
-    n = Math.random()*times.length
-    n = Math.floor(n)
-    let time2 = times[n]
-    times.splice(n, 1)
-
-    console.log(time2);
-
-    document.getElementById('tabela').innerHTML += 
-    `<p class='jogo'>${time1} x ${time2}</p>`
-    
-
-}
-
