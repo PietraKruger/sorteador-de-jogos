@@ -1,64 +1,16 @@
-# sorteador-de-jogos
-Um sorteador de jogos para um mega campeonato fictício
+# React + Vite
 
-## Os times
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-```
-let times = [
-    "Al Moçar",
-    "Apend City",
-    "Ah Tá Anta",
-    "Atlético Maneiro",
-    "Baile de Munique",
-    "Barcelusa",
-    "Bar Sem Lona",
-    "Chelsicha",
-    "CR Flamingo",
-    "Cuiabayern",
-    "Falso Madrid",
-    "Horriver Plate",
-    "Inter de Limão",
-    "Jumentus",
-    "Lazionados",
-    "Malfica",
-    "Meia Boca Junior",
-    "Paysanduba",
-    "Real Madruga",
-    "Real Matismo"
-]
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-```
-let escudos = [
-    "al-moçar.jpg",
-    "apend-city.jpg",
-    "atahanta.jpg",
-    "atletico-maneiro.jpg",
-    "baile-de-munique.jpg",
-    "barcelusa.jpg",
-    "bar-sem-lona.jpg",
-    "chelsicha.jpg",
-    "cr-flamingo.jpg",
-    "cuiabayern.jpg",
-    "falso-madrid.jpg",
-    "horriver-plate.jpg",
-    "inter-de-limao.jpg",
-    "jumentus.jpg",
-    "lazionados.jpg",
-    "malfica.jpg",
-    "meia-boca-junior.jpg",
-    "paysanduba.jpg",
-    "real-madruga.jpg",
-    "real-matismo.jpg"
-]
-```
-```
-git config user.name "nominho"
-git config user.email "emaildogithub"
+## React Compiler
 
-git add .
-git commit -m "sorteador"
-git push
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
