@@ -65,7 +65,7 @@ function App() {
     <div className="cont-app">
       <h1>Copa do mundo cringe</h1>
 
-      {times.length > 0 && <button onClick={sortearJogo}>Sortear Jogos</button>}
+      {times.length > 0 && <button className="btn-sortear" onClick={sortearJogo}>Sortear Jogos</button>}
 
       <h2>Jogos da primeira rodada</h2>
       <div className="primeira-rodada">
